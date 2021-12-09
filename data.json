@@ -1,0 +1,18 @@
+{
+    "characters": [
+        {
+            "id": 0,
+            "name": "chance desire",
+            "status": "alive",
+            "age": 67,
+            "isSmart": true
+        },
+        {
+            "id": 1,
+            "name": "Yvette desire",
+            "status": "alive",
+            "age": 17,
+            "isSmart": false
+        }
+    ]
+}
