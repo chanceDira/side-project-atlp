@@ -52,17 +52,31 @@ dbRef.child("characters").get().then(snapshot => {
 }).catch(err => console.err(err))
 
 
-//Get data from a form
-const newCharacter = {
-    id: 6,
-    name: "Bird Person",
-    status: "dead"
-}
+// //Get data from a form
+// const newCharacter = {
+//     id: 6,
+//     name: "setup Person",
+//     status: "sick",
+//     age: 24
+// }
 
-// Add a character
+// // Add a character #method1
+// dbRef.child("characters").update({1: {
+//     newCharacter
+// }
+
+//Add a character #method2
 dbRef.child("characters").update({1: {
     id: 2,
-    name: "bird person"
+    name: "bird person",
+    status: "happy",
+    age: 54
 }
 
 })
+
+//Delete Object
+// dbRef.child("characters/1").remove()
+
+
+
